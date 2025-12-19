@@ -1,0 +1,2 @@
+- `git merge`
+	- `git merge --ff-only` Git
