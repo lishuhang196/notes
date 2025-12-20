@@ -1,4 +1,4 @@
 - `monorepo` 多包仓库
 - 使用`pnpm`管理
-	- `catalog`在`monorepo`中集中管理依赖版本，将原本分散在多个子项目`package.json`中的版本号，统一提取到根目录下的`pnpm-workspace.yaml`中进行定义
+	- `catalog/catalogs`在`monorepo`中集中管理依赖版本，将原本分散在多个子项目`package.json`中的版本号，统一提取到根目录下的`pnpm-workspace.yaml`中进行定义
 	-
