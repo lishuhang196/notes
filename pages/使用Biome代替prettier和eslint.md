@@ -1,0 +1,2 @@
+- [入门指南 | Biome](https://biomejs.dev/zh-cn/guides/getting-started/)
+-
