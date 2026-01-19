@@ -33,4 +33,7 @@
 			  // Nodejs 会自动忽略掉#!注释
 			  ```
 			- `chmod +x /home/user/bin/node-echo` 赋予脚本执行权限
-		-
+		- 在 Window 系统中需要使用`cmd`文件解决
+			- ```cmd
+			  @node "C:\User\user\bin\node-echo.js" %*
+			  ```
