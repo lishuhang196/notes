@@ -19,4 +19,8 @@
 - package（包）
 	- `package.json` 用于指定一个包的入口文件
 		- ```json
+		  {
+		    "name": "package name",
+		    "mian": "./lib/index.js" // 指定入口模块文件
+		  }
 		  ```
