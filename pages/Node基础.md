@@ -12,8 +12,8 @@
 			- 通过命令行参数传递给 Node 执行的模块被称为主模块。
 	- `es module`，
 	-
-- Node 模块路径解析规则
+- Node 模块路径解析规则，require支持相对或绝对路径导入：
 	- 内置模块
-	- `node_modules`，用于存在 node 包，
+	- `node_modules`，用于存在 node 包，node 会尝试当前`package.json`所在模块加载，如果没找到
 	- `NODE_PATH`环境变量
 -
