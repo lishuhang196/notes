@@ -14,6 +14,6 @@
 	-
 - Node 模块路径解析规则，require支持相对或绝对路径导入：
 	- 内置模块
-	- `node_modules`，用于存在 node 包，node 会尝试当前`package.json`所在模块加载，如果没找到
-	- `NODE_PATH`环境变量
+	- `node_modules`，用于存在 node 包，node 会尝试当前`package.json`所在模块加载，如果没找到则向上一级目录，直至跟目录为止。
+	- `NODE_PATH`环境变量，Node 允许指定`NODE_PATH`环境变量指定额外的模块搜索路径。
 -
