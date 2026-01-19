@@ -1,5 +1,8 @@
 - 特性：事件机制、异步 IO
 - 模块：在 Node 环境中，一个文件便是一个模块，文件路径即是模块名。
 	- `commonjs`，node 原生模块加载机制，
-	- `es module`
+		- `require` 加载和使用其他模块
+		- `exports`
+		- `module` 预定义变量。
+	- `es module`，
 	-
