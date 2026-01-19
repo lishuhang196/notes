@@ -26,5 +26,11 @@
 		  ```
 	- 命令行程序
 		- 在 Linux 系统中，可以把 JS 脚本当做 Shell 脚本运行
-		  ```javascript
-		  ```
+			-
+			- ```javascript
+			  #! /usr/bin/env node
+			  // #! 注释是用来指定当前脚本使用的解析器。
+			  // Nodejs 会自动忽略掉#!注释
+			  ```
+			- `chmod +x /home/user/bin/node-echo` 赋予脚本执行权限
+		-
