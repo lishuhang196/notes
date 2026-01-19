@@ -24,3 +24,7 @@
 		    "mian": "./lib/index.js" // 指定入口模块文件
 		  }
 		  ```
+	- 命令行程序
+		- 在 Linux 系统中，可以把 JS 脚本当做 Shell 脚本运行
+		  ```javascript
+		  ```
