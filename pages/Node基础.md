@@ -13,4 +13,7 @@
 	- `es module`，
 	-
 - Node 模块路径解析规则
+	- 内置模块
+	- `node_modules`，用于存在 node 包，
+	- `NODE_PATH`环境变量
 	-
