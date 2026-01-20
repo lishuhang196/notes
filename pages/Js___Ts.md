@@ -11,5 +11,5 @@
 		  logseq.order-list-type:: number
 	- 判断数据类型的基本方法
 	  logseq.order-list-type:: number
-		- 基本数据类型：`typeof`
+		- 基本数据类型：`typeof`\
 		  logseq.order-list-type:: number
