@@ -1,1 +1,1 @@
-- instanceof：检查
+- instanceof：检查一个对象
