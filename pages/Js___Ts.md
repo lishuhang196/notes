@@ -3,5 +3,6 @@
 	  logseq.order-list-type:: number
 	- 基本类型（除null、undefined、symbol、bigint外）存在与之对应包装类型。
 	  logseq.order-list-type:: number
-	- 不同书籍
+	- 不同数据类型之间的转换
 	  logseq.order-list-type:: number
+	- logseq.order-list-type:: number
