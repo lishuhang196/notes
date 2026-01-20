@@ -15,6 +15,7 @@
 	- 浏览器拓展
 	- Web Workers，独立全局环境，与主线程隔离
 	- 跨域脚本，如果存在沙箱隔离，也会产生上下文差异。
+	-
 - "如何理解instanceof仅适用对象初..."点击查看元宝的回答
   https://yb.tencent.com/s/TS1QdkmindAg
 -
