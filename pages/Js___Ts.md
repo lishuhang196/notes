@@ -13,5 +13,5 @@
 	  logseq.order-list-type:: number
 		- 基本数据类型：`typeof`、`globalThis.isNaN`、`Number.isNaN`
 		  logseq.order-list-type:: number
-		- 引用数据类型：``
+		- 引用数据类型：`I`
 		  logseq.order-list-type:: number
