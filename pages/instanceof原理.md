@@ -9,3 +9,4 @@
   arr instanceof Array // true
   arr instanceof IframeArray // false
   ```
+-
