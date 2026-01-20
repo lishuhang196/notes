@@ -1,5 +1,6 @@
 - 类型
   id:: 696df7de-299b-41db-b493-7a0de6a9abd2
+  collapsed:: true
 	- Js中分为基本类型和引用类型。
 	  logseq.order-list-type:: number
 	- 基本类型（除null、undefined、symbol、bigint外）存在与之对应包装类型。
