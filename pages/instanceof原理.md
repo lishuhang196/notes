@@ -1,1 +1,1 @@
-- instanceof
+- instanceof：检查
