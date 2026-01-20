@@ -9,5 +9,5 @@
 		  logseq.order-list-type:: number
 		- 隐式转换
 		  logseq.order-list-type:: number
-	- 判断
+	- 判断数据类型的基本
 	  logseq.order-list-type:: number
