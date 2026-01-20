@@ -15,4 +15,5 @@
 		  logseq.order-list-type:: number
 		- 引用数据类型：`instanceof`
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+		- 通用数据类型
+		  logseq.order-list-type:: number
