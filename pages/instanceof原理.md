@@ -9,4 +9,4 @@
   arr instanceof Array // true
   arr instanceof IframeArray // false
   ```
--
+- 产生不同上下文的
