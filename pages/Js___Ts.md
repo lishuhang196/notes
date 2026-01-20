@@ -11,6 +11,7 @@
 		  logseq.order-list-type:: number
 	- 判断数据类型的基本方法
 	  logseq.order-list-type:: number
+	  collapsed:: true
 		- 基本数据类型：`typeof`、`globalThis.isNaN`、`Number.isNaN`
 		  logseq.order-list-type:: number
 		- 引用数据类型：`instanceof` 仅适用于**对象初始化在相同上下文中**
