@@ -28,5 +28,5 @@
 		  logseq.order-list-type:: number
 - 函数
 	- 为什么在Js中，函数被称作一等公民？有哪些体现？
-		- 函数可以作为引用存储在变量中，`var func = function() {}`
+		- 函数可以作为引用存储在变量中，`var func = function() {}`。
 		- 函数可以作为**实参**，传递进函数。
