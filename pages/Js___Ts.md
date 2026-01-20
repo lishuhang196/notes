@@ -15,6 +15,6 @@
 		  logseq.order-list-type:: number
 		- 引用数据类型：`instanceof` 仅适用于**对象初始化在相同上下文中**
 		  logseq.order-list-type:: number
-		- 通用方法：`Object.prototype.toString.call([])` 用于查看对象内部的`[[Class]]`值，可
+		- 通用方法：`Object.prototype.toString.call([])` 用于查看对象内部的`[[Class]]`值，可适用于
 		  logseq.order-list-type:: number
 	- logseq.order-list-type:: number
