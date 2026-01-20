@@ -15,5 +15,5 @@
 		  logseq.order-list-type:: number
 		- 引用数据类型：`instanceof`
 		  logseq.order-list-type:: number
-		- 通用方法：``
+		- 通用方法：`Object.`
 		  logseq.order-list-type:: number
