@@ -26,7 +26,7 @@
 		  }
 		  ```
 		- `package.json`文件作用：
-			- 指定一个包的入口文件
+			- main指定一个包的入口文件
 	- 命令行程序
 	  collapsed:: true
 		- 在 Linux 系统中，可以把 JS 脚本当做 Shell 脚本运行
