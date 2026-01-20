@@ -13,7 +13,7 @@
 	- iframe框架
 	  每个iframe标签都会创建独立`window`对象，每个`window`对象都存在独立的内置构造函数，因此虽然与父页面构造函数功能相同，但不是同一个函数
 	- 浏览器拓展
-	- Web Workers
+	- Web Workers，
 - "如何理解instanceof仅适用对象初..."点击查看元宝的回答
   https://yb.tencent.com/s/TS1QdkmindAg
 -
