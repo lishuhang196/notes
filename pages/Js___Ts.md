@@ -13,7 +13,7 @@
 	  logseq.order-list-type:: number
 		- 基本数据类型：`typeof`、`globalThis.isNaN`、`Number.isNaN`
 		  logseq.order-list-type:: number
-		- 引用数据类型：`instanceof` 仅适用于**对象初始化在
+		- 引用数据类型：`instanceof` 仅适用于**对象初始化在相同
 		  logseq.order-list-type:: number
 		- 通用方法：`Object.prototype.toString.call([])` 用于查看对象内部的`[[Class]]`值
 		  logseq.order-list-type:: number
