@@ -28,7 +28,7 @@
 		- `package.json`文件作用：
 			- `main`字段：指定包的入口文件
 			- `bin`字段：用于指定可执行脚本或二进制文件
-				- `npm link` 操作
+				- `npm link`
 				- `npm uninstall -g`
 			-
 	- 命令行程序
