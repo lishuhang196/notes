@@ -27,7 +27,8 @@
 		  ```
 		- `package.json`文件作用：
 			- `main`字段：指定包的入口文件
-			- `bin`字段：用于指定可执行脚本或
+			- `bin`字段：用于指定可执行脚本或二进制文件
+			-
 	- 命令行程序
 	  collapsed:: true
 		- 在 Linux 系统中，可以把 JS 脚本当做 Shell 脚本运行
