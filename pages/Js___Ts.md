@@ -27,4 +27,4 @@
 		- 通用方法：`Object.prototype.toString.call([])` 用于查看对象内部的`[[Class]]`值，可适用于不同上下文中判断变量类型，但无法判断派生对象。
 		  logseq.order-list-type:: number
 - 函数
--
+	-
