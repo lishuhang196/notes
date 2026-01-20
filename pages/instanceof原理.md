@@ -11,4 +11,4 @@
   ```
 - 产生不同上下文的情况
 	- iframe框架
-	  每个iframe标签都会创建独立`window`对象，每个``
+	  每个iframe标签都会创建独立`window`对象，每个`window`
