@@ -29,7 +29,7 @@
 			- `main`字段：指定包的入口文件
 			- `bin`字段：用于指定可执行脚本或二进制文件
 				- `npm link` 自动连接到全局
-				- `npm uninstall -g`
+				- `npm uninstall -g` 撤回操作
 			-
 	- 命令行程序
 	  collapsed:: true
