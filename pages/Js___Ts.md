@@ -1,5 +1,6 @@
 - 类型
   id:: 696df7de-299b-41db-b493-7a0de6a9abd2
+  collapsed:: true
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
 	- logseq.order-list-type:: number
