@@ -9,4 +9,4 @@
 		  logseq.order-list-type:: number
 		- 隐式转换
 		  logseq.order-list-type:: number
-		- logseq.order-list-type:: number
+	- logseq.order-list-type:: number
