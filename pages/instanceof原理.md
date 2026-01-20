@@ -1,1 +1,1 @@
-- instanceof：检查一个对象
+- instanceof：检查一个对象的原型链
