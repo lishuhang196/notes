@@ -41,6 +41,7 @@
 			  @node "C:\User\user\bin\node-echo.js" %*
 			  ```
 	- `NPM`，npm 是随 node 一起安装的**包管理工具**
+	  collapsed:: true
 		- 应用场景：
 			- 允许用户从 npm 服务器上下载第三方包到本地；
 			- 允许用户从 npm 服务器上下载第三方命令行到本地；
