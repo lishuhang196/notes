@@ -15,5 +15,5 @@
 		  logseq.order-list-type:: number
 		- 引用数据类型：`instanceof`
 		  logseq.order-list-type:: number
-		- 通用方法：`Object.prototype.toString.call([])`
+		- 通用方法：`Object.prototype.toString.call([])` 用于查看
 		  logseq.order-list-type:: number
