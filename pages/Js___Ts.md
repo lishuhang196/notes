@@ -1,2 +1,3 @@
 - 类型
-	- logseq.order-list-type:: number
+	- Js中分为基本
+	  logseq.order-list-type:: number
