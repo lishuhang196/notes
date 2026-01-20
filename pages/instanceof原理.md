@@ -10,6 +10,7 @@
   arr instanceof IframeArray // false
   ```
 - 产生不同上下文的情况
+  collapsed:: true
 	- iframe框架
 	  每个iframe标签都会创建独立`window`对象，每个`window`对象都存在独立的内置构造函数，因此虽然与父页面构造函数功能相同，但不是同一个函数
 	- 浏览器拓展
