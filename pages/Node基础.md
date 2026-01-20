@@ -19,14 +19,13 @@
 	- `NODE_PATH`环境变量，Node 允许指定`NODE_PATH`环境变量指定额外的模块搜索路径，可指定一个或多个目录路径（Linux 下使用`:`分割，Windows 下使用`;`分割）。
 - package（包）
 	- 在node中自定义模块，需要在项目根目录中创建`package.json` 文件
-	  collapsed:: true
 		- ```json
 		  {
 		    "name": "package name",
 		    "mian": "./lib/index.js" // 指定入口模块文件
 		  }
 		  ```
-	- 指定一个包的入口文件
+		- 指定一个包的入口文件
 	- 命令行程序
 	  collapsed:: true
 		- 在 Linux 系统中，可以把 JS 脚本当做 Shell 脚本运行
