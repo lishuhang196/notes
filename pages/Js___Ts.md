@@ -27,7 +27,10 @@
 		- 通用方法：`Object.prototype.toString.call([])` 用于查看对象内部的`[[Class]]`值，可适用于不同上下文中判断变量类型，但无法判断派生对象。
 		  logseq.order-list-type:: number
 - 函数
+  collapsed:: true
 	- 为什么在Js中，函数被称作一等公民？有哪些体现？
 		- 函数可以作为引用存储在变量中，`var func = function() {}`。
 		- 函数可以作为**实参**，传递进函数。
 		- 函数可以作为其他函数**返回值**。
+	- `name`属性，在v8中用于内部的堆栈追踪
+	  ![image.png](../assets/image_1769001333238_0.png)
