@@ -26,7 +26,33 @@
 			    process.exit(-1); // 手动退出
 			  });
 			  ```
-		-
+		- ``error事件回调
+		  collapsed:: true
+			- 通常`http`、`net`等原生模块中都会分发`error`事件，如果该事件未处理就会抛出**未捕获异常**
+			  ```javascript
+			  const server = net.createServer();
+			  
+			  server.on('connection', (socket) => {
+			    socket.on('data', (data) => {
+			      console.log('data: ', data.toString());
+			      socket.write('hello client\n');
+			      // 在这个地方要注意Node中事件机制和异常冒泡机制是分开的
+			      // 此处异常为同步操作，同步抛出的异常会沿调用栈向上冒泡，直接到被try...catch块捕获。
+			      // 如果没被捕获就会被变成uncaughtException，从而导致Node进程崩溃
+			      // throw new Error('this is a error');
+			      socket.emit('error', new Error('this is a error'));
+			    });
+			    // 注册一个error事件回调，但不会自动包裹其他事件回调函数抛出的异常
+			    // 通常由socket.emit函数显式触发，或由底层网络错误触发。
+			    socket.on('error', (err) => {
+			      console.log('socket error: ', err.message);
+			    });
+			  });
+			  
+			  server.on('error', (err) => {
+			    console.log('server error: ', err.message);
+			  });
+			  ```
 - 特性：事件机制、异步 IO
 - 模块：在 Node 环境中，一个文件便是一个模块，文件路径即是模块名。
   collapsed:: true
