@@ -18,7 +18,9 @@
 	- `node_modules`，用于存在 node 包，node 会尝试当前`package.json`所在模块加载，如果没找到则向上一级目录，直至跟目录为止。
 	- `NODE_PATH`环境变量，Node 允许指定`NODE_PATH`环境变量指定额外的模块搜索路径，可指定一个或多个目录路径（Linux 下使用`:`分割，Windows 下使用`;`分割）。
 - package（包）
+  collapsed:: true
 	- 在node中自定义模块，需要在项目根目录中创建`package.json` 文件
+	  collapsed:: true
 		- ```json
 		  {
 		    "name": "package name",

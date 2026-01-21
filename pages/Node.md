@@ -1,5 +1,9 @@
+- 书籍
+	- ![深入浅出Node.js.pdf](../assets/深入浅出Node.js_1769000710492_0.pdf)
+	- ![了不起的Node.js.pdf](../assets/了不起的Node.js_1769000772137_0.pdf)
+	- ![Node即学即用.pdf](../assets/Node即学即用_1769000777627_0.pdf)
+	- ![Node.js实战.pdf](../assets/Node.js实战_1769000782307_0.pdf)
 - [[Node基础]]
--
 - [[Node服务内存排查]]
   collapsed:: true
 	- [Node.js 微服务内存泄漏的排查与解决-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/2563078?policyId=1004)
