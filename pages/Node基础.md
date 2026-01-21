@@ -5,8 +5,25 @@
 	- Node使用**单线程**，负载复杂的情况下会阻塞事件循环。
 	- 非阻塞IO保证了在**数据库链接**、**硬盘访问**等操作时，主线程不会被挂起。
 	- **错误处理**
-		-
-	-
+		- 在HTTP请求中，某个回调函数发生错误，整个进程都会发生错误。
+		  ```javascript
+		  import http from 'node:http';
+		  
+		  const server = http.createServer((req, res) => {
+		    throw new Error('This will be uncacaught');
+		  });
+		  
+		  server.listen(3000);
+		  ```
+		- 未捕获的错误会导致整个进程崩溃，此时进程退出。
+		  ![image.png](../assets/image_1769004585538_0.png)
+		- 如果添加了`uncaughtException`事件，此时进程就不会退出，需要手动处理
+		  ```javascript
+		  process.on('uncaughtException', (err) => {
+		    console.log(err.message);
+		    process.exit(-1); // 手动退出
+		  });
+		  ```
 - 特性：事件机制、异步 IO
 - 模块：在 Node 环境中，一个文件便是一个模块，文件路径即是模块名。
   collapsed:: true
