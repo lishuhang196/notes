@@ -26,7 +26,7 @@
 			    process.exit(-1); // 手动退出
 			  });
 			  ```
-		- ``error事件回调
+		- `error`事件回调
 		  collapsed:: true
 			- 通常`http`、`net`等原生模块中都会分发`error`事件，如果该事件未处理就会抛出**未捕获异常**
 			  ```javascript
@@ -53,6 +53,10 @@
 			    console.log('server error: ', err.message);
 			  });
 			  ```
+		- 绝大部分Node异步API接收的回调函数，**第一参数都是错误对象或null**
+	- 堆栈追踪。当错误发生时，在错误信息中可以看到一系列的函数调用，称之为**堆栈追踪**。
+		- 异步调用会导致部分调用栈信息丢失。
+		- `try...catch`无法捕捉异步调用栈信息。
 - 特性：事件机制、异步 IO
 - 模块：在 Node 环境中，一个文件便是一个模块，文件路径即是模块名。
   collapsed:: true
